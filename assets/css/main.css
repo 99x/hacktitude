@@ -1624,10 +1624,10 @@
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #FFE57F 15%, #F9FBE7 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #FFE57F 15%, #F9FBE7 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #FFE57F 15%, #F9FBE7 85%);
+		background-image: url("images/overlay.png"),  #FFE57F 15%, #F9FBE7 85%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1644,8 +1644,8 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
-		color: rgba(255, 255, 255, 0.65);
+				background-image: url("images/overlay.png"),  #FFE57F 15%, #F9FBE7 85%);
+
 	}
 
 	body, input, select, textarea {
@@ -1839,7 +1839,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #101010;
 	}
 
 	blockquote {
@@ -2656,7 +2656,7 @@
 	}
 
 	dl dt {
-		color: #ffffff;
+		color: #101010;
 	}
 
 /* Section/Article */
@@ -3370,12 +3370,12 @@
 				
 					#nav ul li a:hover {
 
-   						 background-color: #7a5892;
+   						 background-color: #f77f19;
    						 color: white
 					}
 
 					#nav ul li a.active {
-   						 background-color: #7a5892;
+   						 background-color: #f77f19;
     						box-shadow: none;
 					}			
 
@@ -3489,7 +3489,7 @@
 			#main input[type="button"].special,
 			#main button.special,
 			#main .button.special {
-				background-color: #7a5892;
+				background-color: #f77f19;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3499,7 +3499,7 @@
 				#main input[type="button"].special:hover,
 				#main button.special:hover,
 				#main .button.special:hover {
-					background-color: #8E24AA;
+					background-color: #f3d96b;
 				}
 
 				#main input[type="submit"].special:active,
@@ -3860,7 +3860,7 @@
 #clockdiv div > span{
 	padding: 20px;
 	border-radius: 40px;
-	background: #f15c38;
+	background: #f77f19;
 	display: inline-block;
 }
 
